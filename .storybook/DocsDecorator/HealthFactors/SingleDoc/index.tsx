@@ -50,7 +50,7 @@ const SingleDoc = ({ label, status, url, urlLabel }: SingleDocProps) => {
           fontVariant="sansRegular"
           aria-labelledby={ariaLabelId}
         >
-          <span // eslint-disable-next-line jsx-a11y/aria-role
+          <span 
             role="text"
             id={ariaLabelId}
           >

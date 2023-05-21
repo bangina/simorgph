@@ -192,12 +192,12 @@ module.exports = ({
       new CopyWebpackPlugin({
         patterns: [{ from: 'public' }],
       }),
-      new DuplicatesPlugin({
-        // Emit compilation warning or error? (Default: `false`)
-        emitErrors: true,
-        // Display full duplicates information? (Default: `false`)
-        verbose: true,
-      }),
+      // new DuplicatesPlugin({
+      //   // Emit compilation warning or error? (Default: `false`)
+      //   emitErrors: false,
+      //   // Display full duplicates information? (Default: `false`)
+      //   verbose: false,
+      // }),
       /*
        * webpack 5 does no longer includes a polyfill for the Node.js process variable in
        * frontend code. webpack advise to avoid using it in the frontend code however the
